@@ -9,7 +9,7 @@ Common style patterns for SCSS
 ## install
 
 ```js
-npm install --save-dev style-import
+npm install style-import
 ```
 
 ## SCSS
