@@ -1,0 +1,23 @@
+{
+  "name": "scss-include",
+  "version": "0.0.1",
+  "description": "SCSS mixin patterns",
+  "main": "index.js",
+  "scripts": {    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berezh/scss-include.git"
+  },
+  "keywords": [
+    "scss",
+    "include",
+    "mixin"
+  ],
+  "author": "Varp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berezh/scss-include/issues"
+  },
+  "homepage": "https://github.com/berezh/scss-include#readme"
+}
