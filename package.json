@@ -1,6 +1,6 @@
 {
   "name": "style-import",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common style patterns",
   "main": "index.js",
   "scripts": {    
@@ -13,7 +13,8 @@
     "scss",
     "include",
     "mixin",
-    "import"
+    "import",
+    "style pattern"
   ],
   "author": "Varp",
   "license": "ISC",
