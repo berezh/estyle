@@ -1,12 +1,13 @@
 {
-  "name": "scss-include",
-  "version": "0.0.2",
-  "description": "SCSS mixin patterns",
+  "name": "style-import",
+  "version": "0.0.1",
+  "description": "Common style patterns",
   "main": "index.js",
   "scripts": {    
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/berezh/style-import.git"
   },
   "keywords": [
     "scss",
@@ -14,5 +15,9 @@
     "mixin"
   ],
   "author": "Varp",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berezh/style-import/issues"
+  },
+  "homepage": "https://github.com/berezh/style-import#readme"
 }
