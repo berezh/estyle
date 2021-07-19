@@ -4,7 +4,7 @@
     <img src="https://nodei.co/npm/style-import.png?mini=true">
 </a>
 
-Common style patterns for SCSS
+Common style patterns for SASS
 
 ## install
 
@@ -60,15 +60,11 @@ Adds styles when media query detect mobile
 .container {
     font-size: 12px;
 
-    @include mobile {
+    // $max-width: optional value, default is 800px. 
+    @include mobile($max-width) {
         font-size: 16px;
     }
 }
-```
-
-```scss
-/* Represents mobile media query detection */
-$style-import-mobile: 800px;
 ```
 
 ### tablet
@@ -79,14 +75,10 @@ Adds styles when media query detect tablet
 .container {
     font-size: 12px;
 
-    @include tablet {
+    // $max-width: optional value, default is 1000px. 
+    @include tablet($max-width) {
         font-size: 16px;
     }
 }
-```
-
-```scss
-/* Represents tablet media query detection */
-$style-import-tablet: 1000px;
 ```
 
