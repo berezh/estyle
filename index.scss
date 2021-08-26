@@ -1,4 +1,4 @@
-@mixin children-row-spacing($size: 1em) {
+@mixin row-space($size: 1em) {
     > * {
         &:not(:last-child) {
             margin-right: $size;
@@ -6,7 +6,7 @@
     }
 }
 
-@mixin children-column-spacing($size: 1em) {
+@mixin col-space($size: 1em) {
     > * {
         &:not(:last-child) {
             margin-bottom: $size;

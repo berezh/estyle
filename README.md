@@ -33,22 +33,22 @@ Adds styles to all children tags
 }
 ```
 
-### children-row-spacing
+### row-space
 
 Adds spacing between children rows
 
 ```scss
 .container {
-    @include children-row-spacing(10px);
+    @include row-space(10px);
 }
 ```
-### children-column-spacing
+### col-space
 
 Adds spacing between children columns
 
 ```scss
 .container {
-    @include children-column-spacing(10px);
+    @include col-space(10px);
 }
 ```
 
