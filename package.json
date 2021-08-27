@@ -1,25 +1,18 @@
 {
   "name": "style-import",
-  "version": "0.0.6",
-  "description": "Common style patterns",
+  "version": "0.0.7",
+  "description": "",
   "main": "index.js",
   "scripts": {    
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/berezh/style-import.git"
+    "url": ""
   },
-  "keywords": [
-    "scss",
-    "include",
-    "mixin",
-    "import",
-    "style pattern"
-  ],
+  "keywords": [],
   "author": "Varp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/berezh/style-import/issues"
   },
-  "homepage": "https://github.com/berezh/style-import#readme"
+  "homepage": ""
 }
