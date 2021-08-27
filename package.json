@@ -1,18 +1,24 @@
 {
-  "name": "style-import",
-  "version": "0.0.8",
-  "description": "",
+  "name": "estyle",
+  "version": "0.0.1",
+  "description": "Common styles patterns",
   "main": "index.js",
-  "scripts": {    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/berezh/estyle.git"
   },
-  "keywords": [],
+  "keywords": [
+    "scss",
+    "include",
+    "mixin",
+    "import",
+    "responsive design"
+  ],
   "author": "Varp",
   "license": "ISC",
   "bugs": {
+    "url": "https://github.com/berezh/estyle/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/berezh/estyle#readme"
 }

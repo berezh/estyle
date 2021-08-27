@@ -15,7 +15,7 @@ jobs:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
-    # - run: npm publish
-    - run: npm deprecate style-import "deprecated, use estyle instead"
+    - run: npm publish
+    # - run: npm deprecate style-import "deprecated, use estyle instead"
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,3 +1,6 @@
+
+/* Responsive Design */
+
 @mixin row-space($size: 1em) {
     > * {
         &:not(:last-child) {
@@ -13,6 +16,65 @@
         }
     }
 }
+/* Responsive Design */
+
+/* Mobile First */
+
+@mixin mf($min-width) {
+    @media all and (max-width: $min-width) {
+        @content;
+    }
+}
+
+@mixin mf-sm {
+    @include mf(604px);
+}
+
+@mixin mf-md {
+    @include mf(768px);
+}
+
+@mixin mf-lg {
+    @include mf(1024px);
+}
+
+@mixin mf-xl {
+    @include mf(1280px);
+}
+
+@mixin mf-2xl {
+    @include mf(1536px);
+}
+
+/* Desktop First */
+
+@mixin df($max-width) {
+    @media all and (max-width: $max-width) {
+        @content;
+    }
+}
+
+@mixin df-sm {
+    @include df(604px);
+}
+
+@mixin df-md {
+    @include df(768px);
+}
+
+@mixin df-lg {
+    @include df(1024px);
+}
+
+@mixin df-xl {
+    @include df(1280px);
+}
+
+@mixin df-2xl {
+    @include df(1536px);
+}
+
+/* COMMON */
 
 @mixin children() {
     > * {
@@ -20,7 +82,7 @@
     }
 }
 
-/* Responsive */
+/* OLD */
 
 @mixin mobile($width: 800px) {
     @media all and (max-width: $width) {
