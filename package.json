@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/berezh/estyle/issues"
   },
-  "homepage": "https://github.com/berezh/estyle#readme"
+  "homepage": "https://github.com/berezh/estyle#readme",
+  "dependencies": {}
 }
