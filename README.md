@@ -25,7 +25,7 @@ npm install estyle
 
 # SCSS
 
-Include link to file:
+Add link to file:
 
 ```scss
 @import "~estyle/index.scss";
