@@ -18,9 +18,9 @@ npm install estyle
   - [Spacing](#spasing)
     - [row-space](#row-space)
     - [col-space](#col-space)
-  - [Responsive Design](#responsivedesign)
-    - [Mobile First](#mobilefirst)
-    - [Desktop First](#desktopfirst)
+  - [Responsive Design](#responsive-design)
+    - [Mobile First](#mobile-first)
+    - [Desktop First](#desktop-first)
   - [children](#children)
 
 # SCSS
