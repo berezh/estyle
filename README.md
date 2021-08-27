@@ -1,1 +1,1 @@
-Deprecated, use [estyle](#https://www.npmjs.com/package/estyle) istead.
+Deprecated, use [estyle](https://www.npmjs.com/package/estyle) istead.
