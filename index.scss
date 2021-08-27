@@ -1,97 +1,116 @@
-
 /* Responsive Design */
 
 @mixin row-space($size: 1em) {
-    > * {
-        &:not(:last-child) {
-            margin-right: $size;
-        }
+  > * {
+    &:not(:last-child) {
+      margin-right: $size;
     }
+  }
 }
 
 @mixin col-space($size: 1em) {
-    > * {
-        &:not(:last-child) {
-            margin-bottom: $size;
-        }
+  > * {
+    &:not(:last-child) {
+      margin-bottom: $size;
     }
+  }
 }
 /* Responsive Design */
 
 /* Mobile First */
 
 @mixin mf($min-width) {
-    @media all and (max-width: $min-width) {
-        @content;
-    }
+  @media all and (max-width: $min-width) {
+    @content;
+  }
 }
 
 @mixin mf-sm {
-    @include mf(604px);
+  @include mf(604px) {
+    @content;
+  }
 }
 
 @mixin mf-md {
-    @include mf(768px);
+  @include mf(768px) {
+    @content;
+  }
 }
 
 @mixin mf-lg {
-    @include mf(1024px);
+  @include mf(1024px) {
+    @content;
+  }
 }
 
 @mixin mf-xl {
-    @include mf(1280px);
+  @include mf(1280px) {
+    @content;
+  }
 }
 
 @mixin mf-2xl {
-    @include mf(1536px);
+  @include mf(1536px) {
+    @content;
+  }
 }
 
 /* Desktop First */
 
 @mixin df($max-width) {
-    @media all and (max-width: $max-width) {
-        @content;
-    }
+  @media all and (max-width: $max-width) {
+    @content;
+  }
 }
 
 @mixin df-sm {
-    @include df(604px);
+  @include df(604px) {
+    @content;
+  }
 }
 
 @mixin df-md {
-    @include df(768px);
+  @include df(768px) {
+    @content;
+  }
 }
 
 @mixin df-lg {
-    @include df(1024px);
+  @include df(1024px) {
+    @content;
+  }
 }
 
 @mixin df-xl {
-    @include df(1280px);
+  @include df(1280px) {
+    @content;
+  }
 }
 
 @mixin df-2xl {
-    @include df(1536px);
+  @include df(1536px) {
+    @content;
+  }
 }
 
 /* COMMON */
 
 @mixin children() {
-    > * {
-        @content;
-    }
+  > * {
+    @content;
+  }
 }
 
 /* OLD */
 
 @mixin mobile($width: 800px) {
-    @media all and (max-width: $width) {
-        @content;
-    }
+  @media all and (max-width: $width) {
+    @content;
+  }
 }
 
 @mixin tablet($width: 1000px) {
-    @media all and (max-width: $width) {
-        @content;
-    }
+  @media all and (max-width: $width) {
+    @content;
+  }
 }
