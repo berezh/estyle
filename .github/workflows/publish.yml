@@ -16,6 +16,6 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
     # - run: npm publish
-    - run: npm deprecate style-import "use estyle instead"
+    - run: npm deprecate style-import ""
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
