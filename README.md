@@ -109,6 +109,8 @@ Desktop first breakpoint system. Means that by default styles applyied to all sc
 | `df-2xl`     | 1536px        | `@media (max-width: 1536px) { ... }` |
 | `df($value)` | custom        | `@media (max-width: $value) { ... }` |
 
+Example:
+
 ```scss
 .container {
   font-size: 12px;
