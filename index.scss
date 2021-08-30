@@ -20,7 +20,7 @@
 /* Mobile First */
 
 @mixin mf($min-width) {
-  @media all and (max-width: $min-width) {
+  @media all and (min-width: $min-width) {
     @content;
   }
 }
