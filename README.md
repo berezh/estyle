@@ -2,12 +2,15 @@
 
 SCSS responsive design pattern
 
+---
+
 <a href="https://www.npmjs.com/package/estyle">
     <img src="https://nodei.co/npm/estyle.png?mini=true">
 </a>
 
-
 [DEMO](https://varp.com/responsive-design)
+
+---
 
 ## install
 
