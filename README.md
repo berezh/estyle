@@ -6,6 +6,8 @@
 
 Common style patterns for SASS
 
+[DEMO](https://varp.com/responsive-design)
+
 ## install
 
 ```js
