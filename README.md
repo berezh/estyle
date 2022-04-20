@@ -1,10 +1,11 @@
 # estyle
 
+SCSS responsive design pattern
+
 <a href="https://www.npmjs.com/package/estyle">
     <img src="https://nodei.co/npm/estyle.png?mini=true">
 </a>
 
-Common style patterns for SASS
 
 [DEMO](https://varp.com/responsive-design)
 

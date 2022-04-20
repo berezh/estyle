@@ -1,6 +1,6 @@
 {
   "name": "estyle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common styles patterns",
   "main": "index.js",
   "scripts": {},
