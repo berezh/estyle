@@ -108,7 +108,7 @@
   padding-left: $space;
 
   @include children {
-    margin-left: $space;
+    margin-right: $space;
     margin-bottom: $space;
   }
 }
