@@ -94,8 +94,39 @@
   }
 }
 
-/* OLD */
+@mixin tile($space:1em) {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: $space;
+  padding-left: $space;
 
+  @include children {
+    margin-right: $space;
+    margin-bottom: $space;
+  }
+}
+
+@mixin scrollbar($width, $borderRadius, $trackColor, $thumbColor, $hoverThumbColor) {
+  ::-webkit-scrollbar {
+    width: $width;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $trackColor;
+    border-radius: $borderRadius;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $thumbColor;
+    border-radius: $borderRadius;
+
+    &:hover {
+      background: $hoverThumbColor;
+    }
+  }
+}
+
+/* OLD */
 @mixin mobile($width: 800px) {
   @media all and (max-width: $width) {
     @content;
