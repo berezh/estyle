@@ -82,6 +82,18 @@
   }
 }
 
+@mixin tile($space:1em) {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: $space;
+  padding-left: $space;
+
+  @include children {
+    margin-right: $space;
+    margin-bottom: $space;
+  }
+}
+
 /* OLD */
 
 @mixin mobile($width: 800px) {

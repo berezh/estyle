@@ -1,10 +1,16 @@
 # estyle
 
+SCSS responsive design pattern
+
+---
+
 <a href="https://www.npmjs.com/package/estyle">
-    <img src="https://nodei.co/npm/estyle.png?mini=true">
+    <img src="https://nodei.co/npm/estyle.png?mini=true"/>
 </a>
 
-Common style patterns for SASS
+[DEMO](https://varp.com/responsive-design)
+
+---
 
 ## install
 
@@ -18,6 +24,7 @@ npm install estyle
   - [Spacing](#spasing)
     - [row-space](#row-space)
     - [col-space](#col-space)
+    - [tile](#tile)
   - [Responsive Design](#responsive-design)
     - [Mobile First](#mobile-first)
     - [Desktop First](#desktop-first)
@@ -50,6 +57,16 @@ Adds spacing between children columns
 ```scss
 .container {
   @include col-space(10px);
+}
+```
+
+### tile
+
+Add spacing for container and child tiles
+
+```scss
+.container {
+  @include tile(10px);
 }
 ```
 
