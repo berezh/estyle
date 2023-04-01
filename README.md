@@ -21,14 +21,11 @@ npm install estyle
 ## Glossary
 
 - [SCSS](#SCSS)
-  - [Spacing](#spasing)
-    - [row-space](#row-space)
-    - [col-space](#col-space)
-    - [tile](#tile)
   - [Responsive Design](#responsive-design)
     - [Mobile First](#mobile-first)
     - [Desktop First](#desktop-first)
   - [children](#children)
+  - [scrollbar](#scrollbar)
 
 # SCSS
 
@@ -36,38 +33,6 @@ Add link to file:
 
 ```scss
 @import "~estyle/index.scss";
-```
-
-## Spacing
-
-### row-space
-
-Adds spacing between children rows
-
-```scss
-.container {
-  @include row-space(10px);
-}
-```
-
-### col-space
-
-Adds spacing between children columns
-
-```scss
-.container {
-  @include col-space(10px);
-}
-```
-
-### tile
-
-Add spacing for container and child tiles
-
-```scss
-.container {
-  @include tile(10px);
-}
 ```
 
 ## Responsive Design
@@ -154,5 +119,26 @@ Adds styles to all children tags
     color: white;
     background-color: black;
   }
+}
+```
+
+## scrollbar
+
+Adds styles scrollbar
+
+```scss
+.container {
+  @include scrollbar(
+    // scrollbar width
+    8px, 
+    // track and thumb border radius
+    3px, 
+    // track color
+    #F2F2F2, 
+    // thumb color
+    #E5E5E5,     
+    // hover thumb color
+    #D8D8D8
+    );
 }
 ```
